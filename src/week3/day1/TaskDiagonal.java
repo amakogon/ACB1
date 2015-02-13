@@ -1,6 +1,5 @@
 package week3.day1;
 
-import helper.ArrayHelper;
 import helper.MatrixHelper;
 
 public class TaskDiagonal {
@@ -12,7 +11,6 @@ public class TaskDiagonal {
 				mas[i][j] = 1;
 			}
 		}
-		
 		MatrixHelper.printMatrix(mas);
 	}
 
